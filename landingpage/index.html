@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img class="encabezado__logo" src="img/images/logo.svg" alt="logo">
+        <div>
+            <button>Try me</button>
+        </div>
+
+    </header>
+    <main>
+        <div class="home">
+            <div class="home__info">
+                <h1>Este es el título mayor</h1>
+                <p>Soy Angel Muguruza</p>
+                <button>Get started for free</button>
+            </div>
+            <img class="home__image" src="img/images/illustration-mockups.svg" alt="imagen ilustrada">
+        </div>
+        <div class="articulo1">
+            <div class="articulo1__info">
+                <h2>Este es el título de articulo 1</h2>
+                <p>Este es el ejemplo del texto articulo 1</p>
+            </div>
+            <img class="articulo1__image" src="img/images/illustration-grow-together.svg" alt="imagen ilustrada">
+        </div>
+        <div class="articulo2">
+            <img class="articulo2__image" src="img/images/illustration-flowing-conversation.svg" alt="imagen ilustrada">
+            <div class="articulo2__info">
+                <h2>Este es el título del artículo 2</h2>
+                <p>Aquí estaría el detalle del texto</p>
+            </div>
+        </div>
+        <div class="articulo3">
+            <div class="articulo3__info">
+                <h2>Este es el título del artículo 3</h2>
+                <p>Aquí estaría el detalle del texto</p>
+            </div>
+            <img class="articulo3__image" src="img/images/illustration-your-users.svg" alt="imagen ilustrada">
+        </div>
+        <div class="textof">
+            <h1 class="textof__texto">Texto final centrado</h1>
+            <button>Try me</button>
+        </div>
+    </main>
+    <footer>
+        <img class="imagen__locacion" src="img/images/icon-location.svg" alt="locacion">
+        <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="correo@gmail.com"
+                />
+              </div>
+              <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                <button>Enviar</button>
+              </div>
+              <p class="alertas" id="alertas"></p>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
